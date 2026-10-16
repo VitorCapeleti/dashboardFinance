@@ -15,7 +15,7 @@ from fpdf.enums import XPos, YPos
 from datetime import datetime, date, timedelta
 st.set_page_config(
     page_title="Dashboard de Vendas",
-    page_icon=":100:",
+    page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
 )
