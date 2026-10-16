@@ -1,0 +1,31 @@
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Banco de dados local (recriado automaticamente pelo init_db)
+*.db
+*.sqlite
+*.sqlite3
+
+# Segredos e configuração local
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Arquivos gerados pela app
+*.pdf
+*.csv
+
+# Arquivos compactados
+*.zip
+
+# IDE e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
